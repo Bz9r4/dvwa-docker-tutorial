@@ -81,7 +81,7 @@ docker run -d -p 80:80 vulnerables/web-dvwa
 docker ps
 ```
 
-## Passo 10: Acessar o DVWA
+## Passo 11: Acessar o DVWA
 
 1. No seu navegador, acesse `http://SEU_IPV4`.
 2. Na tela de login, apenas clique em **Login** sem preencher os campos.
