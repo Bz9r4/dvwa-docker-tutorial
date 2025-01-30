@@ -1,3 +1,5 @@
+🇧🇷 Leia em [Português](README.md) | 🇺🇸 Read in [English](README_EN.md)
+
 # Como Instalar DVWA usando Docker no Ubuntu
 
 ## Requisitos
