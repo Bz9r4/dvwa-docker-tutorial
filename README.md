@@ -51,10 +51,12 @@ sudo docker run hello-world
 ```
 Se tudo estiver correto, você verá uma mensagem indicando que o Docker está funcionando.
 
-## Passo 7: Iniciar e Habilitar o Docker
+## Passo 8: Iniciar e Habilitar o Docker
 Ative o serviço do Docker para iniciar automaticamente com o sistema:
 ```bash
 sudo systemctl start docker
+```
+```bash
 sudo systemctl enable docker
 ```
 
@@ -73,6 +75,10 @@ docker pull vulnerables/web-dvwa
 Execute o contêiner do DVWA na porta 80:
 ```bash
 docker run -d -p 80:80 vulnerables/web-dvwa
+```
+## passo 10: Execute docker ps para ver se o container está rodando corretamente
+```bash
+docker ps
 ```
 
 ## Passo 10: Acessar o DVWA
