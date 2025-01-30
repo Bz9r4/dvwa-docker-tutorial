@@ -53,7 +53,7 @@ sudo docker run hello-world
 ```
 Se tudo estiver correto, você verá uma mensagem indicando que o Docker está funcionando.
 
-## Passo 8: Iniciar e Habilitar o Docker
+## Passo 7: Iniciar e Habilitar o Docker
 Ative o serviço do Docker para iniciar automaticamente com o sistema:
 ```bash
 sudo systemctl start docker
