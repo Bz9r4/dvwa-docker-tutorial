@@ -86,7 +86,12 @@ docker ps
 1. No seu navegador, acesse `http://SEU_IPV4`.
 2. Na tela de login, apenas clique em **Login** sem preencher os campos.
 3. Na tela de configuração, role até o final e clique em **Create/Reset Database**.
-4. A tela de login aparecerá novamente. Use as credenciais:
+     Esse botão é responsável por:
+   
+          - Criar a estrutura inicial do banco de dados do DVWA.
+          - Criar as tabelas necessárias para armazenar usuários, configurações e logs dos testes de vulnerabilidade.
+          - Garantir que o ambiente está pronto para uso, eliminando quaisquer inconsistências ou dados antigos.
+   5. A tela de login aparecerá novamente. Use as credenciais:
    - **Username:** `admin`
    - **Password:** `password`
 
