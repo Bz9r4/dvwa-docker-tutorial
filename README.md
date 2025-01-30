@@ -20,7 +20,11 @@ sudo apt-get install ca-certificates curl
 Crie o diretório necessário e baixe a chave GPG do Docker:
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
+'''
+```bash
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+'''
+```bash
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
