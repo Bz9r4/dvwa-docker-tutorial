@@ -91,7 +91,7 @@ docker ps
           - Criar a estrutura inicial do banco de dados do DVWA.
           - Criar as tabelas necessárias para armazenar usuários, configurações e logs dos testes de vulnerabilidade.
           - Garantir que o ambiente está pronto para uso, eliminando quaisquer inconsistências ou dados antigos.
-5. A tela de login aparecerá novamente. Use as credenciais:
+4. A tela de login aparecerá novamente. Use as credenciais:
    - **Username:** `admin`
    - **Password:** `password`
 
